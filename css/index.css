@@ -1,0 +1,93 @@
+:root{
+    --bg-color: #252526;
+    --tx-color: white;
+}
+
+html{
+    font-family: sans-serif;
+    background-color: var(--bg-color);
+    color: var(--tx-color);
+    justify-content: center;
+}
+
+body{
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 5rem black;
+    max-width: 800px;
+}
+
+p, h1, h2, h3, h4{
+    word-wrap: break-word;
+}
+
+a{
+    color: lightskyblue;
+}
+
+a:visited{
+    color: lightskyblue;
+}
+
+th, td{
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+th{
+    background-color: lightskyblue;
+    color: var(--bg-color);
+}
+
+td{
+    border: 1px solid grey;
+}
+
+ul{
+    line-height: 2rem;
+}
+
+smcp{
+    font-variant: small-caps;
+    display: inline;
+}
+
+minitxt{
+    font-size: 1rem;
+}
+
+di{
+    font-style: italic;
+    color: lightskyblue;
+}
+
+.ex_sentence{
+    width: min-content;
+    border: 1px solid grey;
+    border-radius: 0.25rem;
+    padding-left: 1rem;
+    background-color: lightskyblue;
+    color: var(--bg-color);
+}
+
+.t_v_e{
+    display: flex;
+}
+
+.word{
+    margin-right: 1rem;
+}
+
+.dict{
+    line-height: 0.5rem;
+}
+
+.dict li{
+    margin-bottom: 2rem;
+    list-style: upper-roman;
+}
