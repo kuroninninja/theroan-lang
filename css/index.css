@@ -70,17 +70,22 @@ di{
     width: min-content;
     border: 1px solid grey;
     border-radius: 0.25rem;
-    padding-left: 1rem;
     background-color: lightskyblue;
     color: var(--bg-color);
 }
 
 .t_v_e{
     display: flex;
+    border-bottom: 1px solid black;
+    padding-left: 1rem;
 }
 
 .word{
     margin-right: 1rem;
+}
+
+.english{
+    margin-left: 1rem;
 }
 
 .dict{
@@ -89,5 +94,5 @@ di{
 
 .dict li{
     margin-bottom: 2rem;
-    list-style: upper-roman;
+    list-style: square;
 }
