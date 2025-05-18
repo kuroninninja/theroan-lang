@@ -52,6 +52,15 @@ ul{
     line-height: 2rem;
 }
 
+abbr{
+    font-variant: small-caps;
+    margin-bottom: 1em;
+}
+
+abbr:hover{
+    cursor: help;
+}
+
 smcp{
     font-variant: small-caps;
     display: inline;
@@ -78,14 +87,21 @@ di{
     display: flex;
     border-bottom: 1px solid black;
     padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .word{
     margin-right: 1rem;
+    min-width: fit-content;
+}
+
+.word p{
+    white-space: nowrap;
 }
 
 .english{
     margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .dict{
